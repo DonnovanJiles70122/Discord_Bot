@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 from discord import FFmpegPCMAudio
-from apikey import *
+from keys.apikey import *
 from profanity_check import predict
 import requests, json
 
